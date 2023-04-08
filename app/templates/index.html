@@ -1,0 +1,21 @@
+{% extends 'main.html' %}
+
+{% block hero %}
+<head>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<header>
+        <div class="header_menu">
+            <ul class="login_list">
+                <li><a href="" class="btn btn-info">log  in</a></li>
+                <li><a href="" class="btn btn-info">sign  up</a></li>
+                <li>
+                    <button class="button_menu"><img src="./img/menu.png" alt=""></button>
+                </li>
+            </ul>
+                  <p class="fs-5 mb-4"><b>Are you looking for an art gallery to buy original art? This site is the best shop to find original artwork from contemporary artists and art galleries around the globe! You can find a collection of the right style for you, regardless of your budget, with a variety of sizes and prices. All arts are represented, much like in a real life venue.</b></p>
+          <a href="{{ url_for('paintings') }}">
+            <button type="button" class="btn btn-success btn-lg px-4 me-sm-3 fw-bold">See all Paintings</button>
+          </a>
+        </div>
+{% endblock %}

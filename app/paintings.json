@@ -1,0 +1,47 @@
+[
+  {
+    "Id": "HT-1000",
+    "Category": "oil drawing",
+    "WeightMeasure": 0.4,
+    "WeightUnit": "KG",
+    "Description": "Claude Monet painting reproduction of museum-quality. Find the key factors about the painting and the colors of the artist's imagination",
+    "Name": "Copy of Claude Monet by Stachev Sergey",
+    "PaintingPicUrl": "img/stachevMonet1.jpg",
+    "Status": "Available",
+    "CurrencyCode": "EUR",
+    "Price": 259,
+    "Width": 60,
+    "Height": 40,
+    "DimUnit": "cm"
+  },
+    {
+    "Id": "HT-1001",
+    "Category": "oil drawing",
+    "WeightMeasure": 0.5,
+    "WeightUnit": "KG",
+    "Description": "Kuindzhi painting reproduction of museum-quality. Find the key factors about the painting and the colors of the artist's imagination",
+    "Name": "Copy of Kuindzhi by Stachev Sergey",
+    "PaintingPicUrl": "img/stachevKuindzhi1.jpg",
+    "Status": "Available",
+    "CurrencyCode": "EUR",
+    "Price": 379,
+    "Width": 60,
+    "Height": 40,
+    "DimUnit": "cm"
+  },
+    {
+    "Id": "HT-1002",
+    "Category": "oil drawing",
+    "WeightMeasure": 0.3,
+    "WeightUnit": "KG",
+    "Description": "One of the largest attractions in the south of Israel the park sits in a beautifully majestic desert setting. It has amazing history and geology.",
+    "Name": "Timna Park Eilat, Israel by Stachev Sergey",
+    "PaintingPicUrl": "img/timnaPark.jpg",
+    "Status": "Available",
+    "CurrencyCode": "EUR",
+    "Price": 1589,
+    "Width": 30,
+    "Height": 20,
+    "DimUnit": "cm"
+  }
+]

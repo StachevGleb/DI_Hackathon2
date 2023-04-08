@@ -1,0 +1,31 @@
+{% extends 'index.html' %}
+
+{% block cart %}
+<div class="row g-5 d-flex justify-content-center my-5">
+  <div class="col-md-5 col-lg-4 order-md-last">
+    <h4 class="d-flex justify-content-between align-items-center mb-3">
+      <span class="text-primary">Your personal chosen gallery</span>
+      <span class="badge bg-primary rounded-pill">{{ cart_items|length }}</span>
+    </h4>
+    <ul class="list-group mb-3">
+
+      {% for item in cart_items %}
+      <li class="list-group-item d-flex justify-content-between lh-sm">
+        <div>
+          <h6 class="my-0">{{ item['Name'] }}</h6>
+          <small class="text-muted">{{ item['Description'] }}</small>
+          <div>
+            <a href="{{ url_for('delete_from_cart', painting_id=item['Id']) }}">
+                <button type="button" class="btn btn-sm btn-outline-danger">Remove from Gallery</button>
+            </a>
+          </div>
+        </div>
+        <span class="text-muted">${{ item['Price'] }}</span>
+      </li>
+      {% endfor %}
+      <li class="list-group-item d-flex justify-content-between">
+      </li>
+    </ul>
+  </div>
+</div>
+{% endblock %}
